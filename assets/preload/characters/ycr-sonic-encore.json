@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				46,
+				170
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				311
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				308
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "laugh instance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				340,
+				179
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right instance"
+		},
+		{
+			"offsets": [
+				-42,
+				160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left instance"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-17,
+				211
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle instance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/YCR-Sonic-Encore",
+	"position": [
+		900,
+		260
+	],
+	"healthicon": "ycr",
+	"flip_x": true,
+	"healthbar_colors": [
+		22,
+		13,
+		135
+	],
+	"camera_position": [
+		-530,
+		-140
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.9
+}

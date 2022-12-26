@@ -1,0 +1,101 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"cameraOffset": [
+				-30,
+				0
+			],
+			"offsets": [
+				13,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				30
+			],
+			"offsets": [
+				14,
+				-137
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				30,
+				0
+			],
+			"offsets": [
+				-67,
+				-68
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right instance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				-30
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle instance"
+		},
+		{
+			"offsets": [
+				-70,
+				57
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up instance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				-93
+			],
+			"anim": "Shooted",
+			"fps": 24,
+			"name": "shooted",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/requital",
+	"position": [
+		-70,
+		-10
+	],
+	"healthicon": "requital",
+	"flip_x": false,
+	"healthbar_colors": [
+		253,
+		183,
+		25
+	],
+	"camera_position": [
+		-730,
+		190
+	],
+	"sing_duration": 3,
+	"scale": 1.3
+}
