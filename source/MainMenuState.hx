@@ -49,19 +49,23 @@ class MainMenuState extends MusicBeatState
 
 	var bgdesat:FlxSprite;
 	var camFollow:FlxObject;
+	var debugKeys:Array<FlxKey>;
 
 	override function create()
 	{
+		#if windows
+		DiscordClient.changePresence("In the Main Menu", null);
+		#end
+		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
+		
 		FlxG.sound.playMusic(Paths.music('storymodemenumusic'));
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
 		persistentUpdate = persistentDraw = true;
-
-		DiscordClient.changePresence("In the Main Menu", null);
 		
 		var bg:FlxSprite = new FlxSprite();
-		bg.frames = Paths.getSparrowAtlas('Main_Menu_Spritesheet_Animation');
-		bg.animation.addByPrefix('a', 'BG instance 1');
-		bg.animation.play('a', true);
+		bg.frames = Paths.getSparrowAtlas('MainMenuAnim');
+		bg.animation.addByPrefix('idle', 'BG instance', 24);
+		bg.animation.play('idle', true);
 		bg.scrollFactor.x = 0;
 		bg.scrollFactor.y = 0;
 		bg.updateHitbox();
@@ -239,7 +243,15 @@ class MainMenuState extends MusicBeatState
 					});
 				}
 			}
+			#if desktop
+			else if (FlxG.keys.anyJustPressed(debugKeys))
+			{
+				selectedSomethin = true;
+				MusicBeatState.switchState(new MasterEditorMenu());
+			}
+			#end
 		}
+		super.update(elapsed);
 	}
 
 	function changeItem(huh:Int = 0)
