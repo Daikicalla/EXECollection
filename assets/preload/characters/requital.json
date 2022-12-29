@@ -1,82 +1,82 @@
 {
 	"animations": [
 		{
-			"loop": false,
+			"offsets": [
+				43,
+				4
+			],
 			"cameraOffset": [
 				-30,
 				0
 			],
-			"offsets": [
-				13,
-				-6
-			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left instance",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left instance"
 		},
 		{
-			"loop": false,
+			"offsets": [
+				44,
+				-147
+			],
 			"cameraOffset": [
 				0,
 				30
 			],
-			"offsets": [
-				14,
-				-137
-			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down instance",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down instance"
 		},
 		{
-			"loop": false,
+			"offsets": [
+				-86,
+				-48
+			],
 			"cameraOffset": [
 				30,
 				0
 			],
-			"offsets": [
-				-67,
-				-68
-			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right instance",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right instance"
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-5,
 				-30
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle instance"
+			"fps": 24,
+			"name": "idle instance",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-70,
 				57
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up instance"
+			"fps": 24,
+			"name": "up instance",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-76,
-				-93
+				-86,
+				-55
 			],
-			"anim": "Shooted",
+			"loop": false,
 			"fps": 24,
-			"name": "shooted",
-			"indices": []
+			"anim": "Shooted",
+			"indices": [],
+			"name": "shooted"
 		}
 	],
 	"no_antialiasing": false,
