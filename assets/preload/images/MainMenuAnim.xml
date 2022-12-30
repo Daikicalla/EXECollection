@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Main_Menu_Spritesheet_Animation.png">
+<TextureAtlas imagePath="MainMenuAnim.png">
 	<!-- Created with Adobe Animate version 21.0.3.38773 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="BG instance 10000" x="0" y="0" width="1280" height="720"/>
